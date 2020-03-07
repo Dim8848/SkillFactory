@@ -1,0 +1,28 @@
+body {
+    background-color: #F2F2F2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin-top: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #313030;
+    height: 89px;
+    
+
+}
+
+.site-menu li {
+    display: inline-block;
+
+}
+
+.site-menu a {
+    display: inline-block;
+    
+
+}

@@ -1,0 +1,132 @@
+@font-face {
+	src: url('../fonts/OpenSans-Regular.ttf');
+	font-family: 'OpenSans Regular';
+}
+
+@font-face {
+	src: url('../fonts/OpenSans-Italic.ttf');
+	font-family: 'OpenSans Italic';
+}
+
+@font-face {
+	src: url('../fonts/OpenSans-Bold.ttf');
+	font-family: 'OpenSans Bold';
+}
+
+@font-face {
+	src: url('../fonts/OpenSans-SemiBold.ttf');
+	font-family: 'OpenSans SemiBold';
+}
+
+@font-face {
+	src: url('../fonts/OpenSans-ExtraBold.ttf');
+	font-family: 'OpenSans ExtraBold';
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	/*background-color: #F2F2F2;*/
+	font-family: 'Open Sans', sans-serif;
+}
+
+.services-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1249px;
+}
+
+.services-wrapper-left {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 50%;
+	flex: 1 1;
+	
+	flex-direction: column;
+}
+
+.services-button {
+	color: #ff3f40;
+	display: inline-block;
+	background-color: #ffffff;
+	width: 227px;
+	padding: 16px 0;
+	border: 2px solid #ff3f40;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.services-wrapper-right {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 50%;
+	flex: 1 1;
+
+}
+
+.service {
+	flex: 1 1 288px;
+	max-width: 288px;
+	/*background-color: rgb(228, 211, 65);*/
+	margin: 5px;
+}
+
+/*.service>img {
+	width: 90%;
+}*/
+
+.service>h3 {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24.0692px;
+	/*line-height: 0px;*/
+}
+
+.service>h3::before {
+	display: block;
+	width: 41px;
+	height: 41px;
+	margin-bottom: 23px;
+}
+
+.service>.Management:before {
+	content: url('img/service-1.png');
+}
+
+.service>.Design:before {
+	content: url('img/service-2.png');
+}
+
+.service>.Branding:before {
+	content: url('img/service-3.png');
+}
+
+.service>.Animation:before {
+	content: url('img/service-4.png');
+}
+
+p {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+@media screen and (max-width: 450px) {
+	.service,
+	.services-wrapper-left,
+	.services-wrapper-right {
+		flex: 1 1 100%;
+	}
+	
+}
+
+@media screen and (max-width: 450px) {
+	.services-wrapper {
+		flex-wrap: wrap;
+	}
+	
+}

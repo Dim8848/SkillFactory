@@ -1,0 +1,8 @@
+.site-menu li {
+list-style: none;
+}
+
+.site-menu > li::before {
+content:'\23AF';
+padding: 10px;
+}

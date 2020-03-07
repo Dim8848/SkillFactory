@@ -1,0 +1,56 @@
+h1, h2 {
+	233, 175, 15
+}
+body {
+	font-size: 20px;
+	color: rgb(23, 74, 151);
+}
+.items {
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: top;
+    min-width: 500px;
+    width: 33%;
+    min-height: 200px;
+    background-color: rgb(240, 152,70);
+} 
+
+
+.about-heading {
+	color: rgb(240, 17, 17);
+}
+.important-text {
+	color: #000;
+	font-weight: 700;
+}
+.text:nth-of-type(2) {
+	font-size: 25px;
+	background-color: bisque;
+}
+
+header a {
+    display: inline-block;
+    margin: 0 30px;
+    color: inherit;
+}
+header a:nth-child (2) {
+	color: rgb(64, 216, 25);
+	header {
+    color: #000;
+}
+
+
+
+h2 + p {
+	font-style: italic;
+}
+
+a:hover {
+	color: rgb(175, 45, 22);
+}
+.intro {
+	color: rgba (255, 255, 255, 0.5);
+}
+
+
+

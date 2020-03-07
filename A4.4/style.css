@@ -1,0 +1,16 @@
+.site-menu {
+	position: relative;
+}
+
+ul {
+ 	list-style: none;
+}
+
+.site-menu a {
+	 text-decoration: none;
+}
+
+ .menu-item::before {
+    content: '\23AF';
+    padding-right: 10px;
+}

@@ -1,0 +1,52 @@
+html, body, ul {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #f6f2f2;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	position: relative;
+	width: 800px;
+	height: 89px;
+	background: #313030;
+	margin: 30px auto;
+	text-align: center;
+}
+
+ul {
+	display: block;
+	list-style-type: none;
+	height: inherit;
+}
+
+ul li {
+	display: inline-block;
+	height: inherit;
+	position: relative;
+}
+
+ul li:hover {
+	background: #ff3f40;
+}
+
+ul li a {
+	display:block;
+	text-decoration: none;
+	color: #FFF;
+	padding: 0 20px;
+	line-height: 89px;
+	position: relative;
+}
+
+
+ul li a:visited, ul li a:active {
+	color: #FFF;
+}
+
+
+
+
+

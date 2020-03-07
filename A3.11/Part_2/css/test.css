@@ -1,0 +1,34 @@
+
+
+.wrapper {
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    align-items: center;
+    background-color: rgb(91, 28, 128);
+}
+
+.block {
+    width: 100px;
+    height: 50px;
+    margin: 2vw;
+    color: #fff;
+    background-color: #CBFF74;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+@media screen and (max-width: 400px) 
+    {
+.wrapper {
+        justify-content: center;
+        background-color: #FFAA34;
+ }
+.block {
+        width: 80%;
+}
+
+}

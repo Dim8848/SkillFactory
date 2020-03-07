@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+}
+main {
+	display: flex;
+	color: #808080;
+	padding: 8px 5vw;
+	align-items: baseline; 
+	background-color: #2B2B2B;
+
+}
+
+main a { 
+
+	padding-right: 2px;
+    width: 3%; float: right;
+	font-size: 13px;
+}
+
+main h1 {
+    padding: 10px 1vw 1px 1vw;
+	font-size: 13px;
+
+}

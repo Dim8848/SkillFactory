@@ -1,0 +1,62 @@
+h1, h2 {233, 175, 15
+
+}
+p {
+	font-size: 20px;
+	color: rgb(94, 94, 94);
+}
+.about-heading {
+	color: rgb(240, 17, 17);
+}
+.important-text {
+	color: #000;
+	font-weight: 700;
+}
+.text {
+	font-size: 25px;
+}
+
+header a:nth-child (2) {
+	color: rgb(64, 216, 25);
+}
+
+h2 + p {
+	font-size: italic;
+}
+
+a:hover {
+	color: rgb(175, 45, 22);
+}
+.intro {
+	color: rgba (255, 255, 255, 0.5);
+}
+
+.items th,
+.items td {
+	border: 1px solid black;
+	width: 200px;
+	height: 35px;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+
+}
+.items {
+	border-collapse: collapse;
+}
+.items tbody tr:nth-of-type(2n+1) { 
+    background-color: rgb(252, 198, 128); 
+}
+.name-text {
+    font-weight: bold;
+    color: blue;
+
+}
+
+.prof-text {
+    color: rgb(201, 29, 29);
+}
+
+.city-text {
+    font-style: italic;
+    text-transform: uppercase;
+}
